@@ -7,20 +7,16 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: 'A Search Engine',
-    description: `What if you could look up any information in the world? Webpages, images, videos
-    and more. Google has many features to help you find exactly what you're looking
-    for.`,
-    imgSrc: '/static/images/google.png',
-    href: 'https://www.google.com',
+    title: 'Music and Corpus Studies',
+    description: `How does one analyze large collections of musical data? This volume, co-edited with Ian Quinn and Ashley Burgoyne
+    explores the history of computational musicology, as well as contemporary tools, techniques, and theories for this growing subdiscipline.`,
+    imgSrc: '/static/images/longroom.png',
+    href: 'https://academic.oup.com/edited-volume/41992,
   },
   {
-    title: 'The Time Machine',
-    description: `Imagine being able to travel back in time or to the future. Simple turn the knob
-    to the desired date and press "Go". No more worrying about lost keys or
-    forgotten headphones with this simple yet affordable solution.`,
-    imgSrc: '/static/images/time-machine.jpg',
-    href: '/blog/the-time-machine',
+    title: 'Networks of Musical Knowledge',
+    description: `This project explores how musical ideas are transmitted through communication networks. With case studies including jazz collectives, 18th-century theoretical treatises, and others, it studies the nature of musical communication and interaction,
+    through the lenses of network theory and the science of science.`,
   },
 ]
 
