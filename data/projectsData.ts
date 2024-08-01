@@ -10,7 +10,7 @@ const projectsData: Project[] = [
     title: 'Music and Corpus Studies',
     description: `How does one analyze large collections of musical data? This volume, co-edited with Ian Quinn and Ashley Burgoyne explores the history of computational musicology, as well as contemporary tools, techniques, and theories for this growing subdiscipline.`,
     imgSrc: '/static/images/longroom.png',
-    href: 'https://academic.oup.com/edited-volume/41992,
+    href: 'https://academic.oup.com/edited-volume/41992'
   },
   {
     title: 'Networks of Musical Knowledge',
