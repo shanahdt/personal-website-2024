@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const Publications: React.FC = () => {
   return (
@@ -6,7 +6,7 @@ const Publications: React.FC = () => {
       <h1>Publications</h1>
       {/* Other content */}
     </div>
-  );
-};
+  )
+}
 
-export default Publications;
+export default Publications
