@@ -4,6 +4,9 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
+
+
+
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
@@ -80,6 +83,15 @@ module.exports = () => {
       ],
       unoptimized,
     },
+      async redirects() {
+        return [
+          {
+            source: '/',
+            destination: '/about',
+            permanent: true
+          },
+        ]
+      },
     async headers() {
       return [
         {
@@ -97,4 +109,16 @@ module.exports = () => {
       return config
     },
   })
+// module.exports = {
+//   async redirects() {
+//     return [
+//       {
+//         source: '/about',
+//         destination: '/',
+//         permanent: true,
+//       },
+//     ]
+//   },
+// }
+
 }
