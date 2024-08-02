@@ -1,5 +1,5 @@
-// import publicationsData from '@/data/publicationsData'
-// import React from "react";
+import publicationsData from '@/data/publicationsData'
+import React from "react";
 //   import {
 //     Table,
 //     TableHeader,
@@ -28,13 +28,13 @@
 // 
 // export const metadata = genPageMetadata({ title: 'Publications' })
 // 
-// export default function Publications() {
-//   return 
-//   const statusColorMap = {
-//     active: "success",
-//     paused: "danger",
-//     vacation: "warning",
-//   };
+export default function Publications() {
+  return 
+  const statusColorMap = {
+    active: "success",
+    paused: "danger",
+    vacation: "warning",
+  };
 //   
 //   const INITIAL_VISIBLE_COLUMNS = ["name", "role", "status", "actions"];
 //   
