@@ -34,7 +34,5 @@ export default function PublicationsLayout({ children, content }: Props) {
             Check out <a href="https://sites.northwestern.edu/mccll/publications/">in the meantime.</a>
         </div>
         </div>
-        </div>
         </>
 )
-}
