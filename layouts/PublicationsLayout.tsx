@@ -30,7 +30,7 @@ export default function PublicationsLayout({ children, content }: Props) {
                 className="h-48 w-48 rounded-full"
               />
             )}
-            <p>Coming Soon. Check out <a href="https://sites.northwestern.edu/mccll/publications/">this site</a> in the meantime.</p>
+            <p>Coming Soon.</p>
             </div>
         </div>
       </div>
