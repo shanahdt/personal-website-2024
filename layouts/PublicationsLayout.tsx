@@ -30,7 +30,8 @@ export default function PublicationsLayout({ children, content }: Props) {
                 className="h-48 w-48 rounded-full"
               />
             )}
-            <div className="placeholder-publications">Coming soon. Check out <a href="https://sites.northwestern.edu/mccll/publications/">in the meantime.</a> </div>
+            <div className="placeholder-publications">Coming soon.</div>
+            Check out <a href="https://sites.northwestern.edu/mccll/publications/">in the meantime.</a>
         </div>
         </div>
         </div>
